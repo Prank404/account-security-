@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>⚠️ ML Account HACKED</title>
+  <style>
+    body {
+      background-color: #1a0000;
+      color: #ff0000;
+      font-family: 'Courier New', monospace;
+      text-align: center;
+      padding-top: 40px;
+      overflow: hidden;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    img.skull {
+      width: 120px;
+      margin: 20px auto;
+      animation: shake 0.3s infinite;
+    }
+
+    @keyframes shake {
+      0% { transform: rotate(1deg); }
+      25% { transform: rotate(-2deg); }
+      50% { transform: rotate(1deg); }
+      100% { transform: rotate(-1deg); }
+    }
+
+    .glitch-text {
+      font-size: 22px;
+      color: red;
+      animation: glitch 0.2s infinite;
+      margin-top: 20px;
+    }
+
+    @keyframes glitch {
+      0% { transform: translate(1px, -1px); }
+      25% { transform: translate(-1px, 2px); }
+      50% { transform: translate(2px, 1px); }
+      75% { transform: translate(-2px, -1px); }
+      100% { transform: translate(1px, 2px); }
+    }
+
+    button {
+      padding: 14px 28px;
+      background-color: black;
+      color: #ff0000;
+      border: 2px solid red;
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 30px;
+      cursor: pointer;
+      box-shadow: 0 0 15px red;
+      border-radius: 8px;
+    }
+
+    .final-message {
+      font-size: 20px;
+      color: #ff4444;
+      animation: blink 1s infinite;
+      margin-top: 30px;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+
+    .leak-box {
+      margin-top: 40px;
+      padding: 20px;
+      border: 2px dashed red;
+      background-color: #2b0000;
+      color: #ff3333;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>💀 MOBILE LEGENDS HACK TOOL 💀</h1>
+  <p>Sila tekan butang di bawah untuk Recover Account</p>
+  <button onclick="startHack()">🔒 Recover Account</button>
+
+  <div id="step1" class="glitch-text hidden">
+    ⏳ Connecting to Moonton Servers...
+  </div>
+  <div id="step2" class="glitch-text hidden">
+    ⚠ IP Dikesan: 103.31.115.62<br>
+    Lokasi: 🇮🇩 Jakarta, Indonesia<br>
+    Status: LOGIN DATA BEEN HACK (kasi sodok)
+  </div>
+  <div id="skull" class="hidden">
+    <img class="skull" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Skull_and_crossbones.svg/1024px-Skull_and_crossbones.svg.png">
+  </div>
+  <div id="final" class="final-message hidden">
+    ❌ Akaun anda telah dipindahkan<br>
+    Sistem akan ditutup secara kekal dalam 24 jam.
+  </div>
+  <div id="leak" class="leak-box hidden glitch-text">
+    ⚠️ YOUR DATA HAS BEEN LEAKED!<br><br>
+    IP Address: 103.31.115.62<br>
+    Lokasi: 🇮🇩 Jakarta, Indonesia<br>
+    MLBB ID: 884521930 (linked)<br>
+    Password: ******** (exposed)<br>
+    Last Login: 2 minutes ago from Unknown Device
+  </div>
+
+  <audio id="siren" preload="auto">
+    <source src="https://www.soundjay.com/button/beep-10.wav" type="audio/wav">
+  </audio>
+
+  <script>
+    function startHack() {
+      const siren = document.getElementById("siren");
+      siren.currentTime = 0;
+      siren.volume = 1.0;
+
+      document.getElementById("step1").classList.remove("hidden");
+
+      setTimeout(() => {
+        document.getElementById("step1").classList.add("hidden");
+        document.getElementById("step2").classList.remove("hidden");
+        siren.play().catch(() => {
+          alert("‼️ Tap skrin untuk aktifkan bunyi.");
+        });
+      }, 3000);
+
+      setTimeout(() => {
+        document.getElementById("step2").classList.add("hidden");
+        document.getElementById("skull").classList.remove("hidden");
+      }, 8000);
+
+      setTimeout(() => {
+        document.getElementById("final").classList.remove("hidden");
+      }, 10000);
+
+      setTimeout(() => {
+        document.getElementById("leak").classList.remove("hidden");
+      }, 12000);
+    }
+  </script>
+</body>
+</html>
